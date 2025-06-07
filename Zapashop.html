@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KickZone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      color: #1c1c1c;
+    }
+
+    .producto {
+      margin-bottom: 15px;
+    }
+
+    .producto img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .proveedor, .cliente {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .proveedor img, .cliente img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      object-fit: cover;
+    }
+
+    .cliente i {
+      font-size: 20px;
+      margin-right: 8px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+
+  <!-- Íconos de cliente (usamos FontAwesome) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>KickZone</h1>
+    <marquee>
+    <p>Camina con estilo. Camina con estilo, pisa con actitud. Donde cada paso cuenta. Tu estilo empieza desde los pies.</p>
+    </marquee>
+  </header>
+
+  <nav>
+    <a href="#adidas">Adidas</a>
+    <a href="#nike">Nike</a>
+    <a href="#reebok">Reebok</a>
+    <a href="#jordan">Jordan</a>
+    <a href="#mision-vision">Misión y Visión</a>
+    <a href="#proveedores">Proveedores</a>
+    <a href="#clientes">Clientes</a>
+  </nav>
+
+  <main>
+
+    <!-- Sección Misión y Visión -->
+    <section id="mision-vision">
+      <h2>Misión</h2>
+      <p>En KickZone, nuestra misión es ofrecer calzado de alta calidad que combine estilo, confort y autenticidad, acercando a nuestros clientes a las mejores marcas del mundo.</p>
+
+      <h2>Visión</h2>
+      <p>Ser la tienda líder de sneakers en Centroamérica, reconocida por nuestra pasión por la moda urbana y el compromiso con nuestros clientes.</p>
+    </section>
+
+    <!-- Productos -->
+    <section id="adidas">
+      <h2>Adidas</h2>
+      <div class="producto">
+        <img src="https://urbanoshoes.com.gt/wp-content/uploads/2024/08/ADIDAS00633.jpg" alt="Adidas Ultraboost">
+        <p><strong>Modelo:</strong> Ultraboost</p>
+        <p><strong>Precio:</strong> Q950</p>
+      </div>
+    </section>
+
+    <section id="nike">
+      <h2>Nike</h2>
+      <div class="producto">
+        <img src="https://images-cdn.ubuy.gt/6356aa056ceada1982547707-new-nike-air-max-90-shoes-dc9388-003.jpg" alt="Nike Air Max">
+        <p><strong>Modelo:</strong> Air Max</p>
+        <p><strong>Precio:</strong> Q1,100</p>
+      </div>
+    </section>
+
+    <section id="reebok">
+      <h2>Reebok</h2>
+      <div class="producto">
+        <img src="https://images-cdn.ubuy.gt/66e34ef1044c4609601b204b-reebok-classic-leather-men-039-s.jpg" alt="Reebok Classic">
+        <p><strong>Modelo:</strong> Classic</p>
+        <p><strong>Precio:</strong> Q620</p>
+      </div>
+    </section>
+
+    <section id="jordan">
+      <h2>Jordan</h2>
+      <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMOKC6s2NjMCm7o-yXsbsWpCGc72g5KzfCVQ&s" alt="Air Jordan 1">
+        <p><strong>Modelo:</strong> Air Jordan 1</p>
+        <p><strong>Precio:</strong> Q1,250</p>
+      </div>
+    </section>
+
+    <!-- Proveedores -->
+    <section id="proveedores">
+      <h2>Proveedores</h2>
+      <div class="proveedor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" alt="Adidas">
+        <div><strong>Adidas</strong><br>Proveedor oficial de Ultraboost</div>
+      </div>
+      <div class="proveedor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike">
+        <div><strong>Nike</strong><br>Proveedor oficial de Air Max</div>
+      </div>
+      <div class="proveedor">
+        <img src="data:image/png;base64,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" alt="Reebok">
+        <div><strong>Reebok</strong><br>Proveedor oficial de Classic</div>
+      </div>
+      <div class="proveedor">
+        <img src="https://cdn.worldvectorlogo.com/logos/jordan-2.svg" alt="Jordan">
+        <div><strong>Jordan</strong><br>Proveedor oficial de Air Jordan 1</div>
+      </div>
+    </section>
+
+    <!-- Clientes -->
+    <section id="clientes">
+      <h2>Clientes</h2>
+      <div class="cliente">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente 1">
+        <div><i class="fas fa-user"></i> <strong>Carlos Méndez</strong><br>Cliente frecuente desde 2022</div>
+      </div>
+      <div class="cliente">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Cliente 2">
+        <div><i class="fas fa-user"></i> <strong>Ana López</strong><br>Fanática de Jordan y Nike</div>
+      </div>
+      <div class="cliente">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente 3">
+        <div><i class="fas fa-user"></i> <strong>José Ramírez</strong><br>Amante de la moda urbana</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 KickZone - Todos los derechos reservados.</p>
+    <marquee>
+    <p> Conocereis la verdad y la verdad os hará libres </p>
+    </marquee>
+    <p> Instagram: @marianogalvez </p>
+    <p> Facebook: Universidad Mariano Gálvez de Guatemala
+  </footer>
+
+</body>
+</html>
